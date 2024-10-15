@@ -27,7 +27,7 @@ void Libera(TLista *lista) {
 void Imprime(TLista *lista) {
     TNodo *ptr = lista->inicio;
 
-    printf("Imprimiendo...\n\n");
+    printf("\nLista:\n");
 
     while (ptr->sig!= NULL) {
         printf("%s", ptr->dato);
